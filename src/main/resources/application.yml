@@ -7,14 +7,14 @@ spring:
         console:
             enabled: true
             path: /h2
-security:
-    oauth2:
-        client:
-            client-id: client
-            client-secret: 123456
-    user:
-        name: admin
-        password: admin
+#security:
+#    oauth2:
+#        client:
+#            client-id: client
+#            client-secret: 123456
+#    user:
+#        name: admin
+#        password: 123456
 mybatis:
     configuration:
         mapUnderscoreToCamelCase: true
